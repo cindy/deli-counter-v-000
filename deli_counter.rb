@@ -10,6 +10,6 @@ def line(array)
 end
 
 def take_a_number(deli, name)
-  deli = [name]
+  deli << name
   deli
 end
