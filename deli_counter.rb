@@ -3,8 +3,8 @@ def line(array)
     puts "The line is currently empty."
   else
     line = "The line is currently: "
-    array.each_with_index{|person, num| line << "#{num + 1}. #{person} "}
-    puts line
+    array.each_with_index{|person, num| line << "#{num + 1}. #{person}"}
+    puts line.strip
 
   end
 end
