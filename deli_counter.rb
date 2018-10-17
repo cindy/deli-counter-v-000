@@ -1,5 +1,5 @@
 def line(array)
   if array.size == 0:
-    "emtpy"
+    "there is nobody in line"
   end
 end
