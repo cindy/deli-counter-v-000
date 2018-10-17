@@ -20,4 +20,5 @@ def now_serving(deli)
   else
     deli.unshift
   end
+  deli
 end
